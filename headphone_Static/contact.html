@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'></script>
+    <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'/>
+    <script type="text/javascript" src="JSARToolKit.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+         .popup {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 15px;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    </style>
+  
+  </head>
+  <body>
+    <div class="container-fluid">
+
+
+        <!-- Header Section Srart  -->
+      <section class="header1-top" style="height: 50vh !important;">
+        <div class="row">
+            <div class="col-md-4 logos">
+                <h3><a href="">Headph<span style="color: red !important; font-size: 30px !important;">O</span>nes</a></h3>
+            </div>
+
+            <div class="col-md-8 ps-12">
+                <nav class="navbar navbar-expand-lg navmenu">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="productpage.html">Products</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeQ4YH7RnImbm2ZhufZIRFxaqwH2gogw2AA-ZspJNBjNhIxDA/viewform?usp=sf_link">Feedback</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="lin"></div>
+        <h2 style="color: white;font-size: 38px; font-weight: 700;text-align: center;margin-top: 70px;">Contact Us</h2>
+    </section>
+    <!-- End of Header  -->
+
+    <!--Contact Body Start-->
+    <section class="contact-page">
+        <div class="row course-heading1">
+            <div class="col-md-12">
+              <h2>Feel Free to contact Us</h2>
+             
+            </div>
+          </div>
+          
+
+          <div class="row contact-page-content p0">
+              <div class="col-md-6">
+                <div class="contact-left">
+
+                  <div class="row">
+                    <div class="col-md-1">
+                      <i class="fa-solid fa-house" style="color: #df4b0c;"></i>
+                    </div>
+                    <div class="col-md-11 pl">
+                      <h5>University of Sussex (School of Engineering)</h5>
+                      <p>82 Southern Road, E139JD , London, UK</p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-1">
+                      <i class="fa-solid fa-phone" style="color: #df4b0c;"></i>
+                    </div>
+                    <div class="col-md-11 pl">
+                      <h5>+41 6378281761</h5>
+                      <p>Monday to Saturday, 10AM to 6PM</p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-1">
+                      <i class="fa-solid fa-envelope" style="color: #df4b0c;"></i>
+                    </div>
+                    <div class="col-md-11 pl">
+                      <h5>mdsohelrana626@gmail.com</h5>
+                      <p>Email us your queries</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-md-6 contact-form">
+                
+                <form action="">
+                    
+                  <input type="text" class="input" placeholder="Enter Your Name" required> <br>
+                  <input type="email" class="input" placeholder="Enter Your Email" required> <br>
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Your Comment..."></textarea> <br>
+                  <p><a href="#" class="btn btn-outline-primary btn-hero" onclick="addToCart()">Send Message</a></p>
+                  <div id="successPopup" class="popup">
+                    Message Sent Successfully!
+                  </div>
+                      
+              </form>
+              </div>
+          </div>
+
+          <div class="row map">
+            <div class="col-md-10 offset-md-1">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe width="1000" height="310" id="gmap_canvas" src="https://maps.google.com/maps?q=82%20Southern%20Road,%20London&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  <!-- <a href="https://2yu.co">2yu</a><br> -->
+                  <style>.mapouter{position:relative;text-align:right;height:510px;width:95%;}</style>
+                  <!-- <a href="https://embedgooglemap.2yu.co">html embed google map</a> -->
+                  <style>.gmap_canvas {overflow:hidden;background:none!important;height:510px;width:1000px;}</style>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      </section>
+      <!--Ending of Contact Body-->
+
+       <!--Footer Section Start-->
+       <section class="footer p-0" style="margin-top: -80px;">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="col-md-4">
+                <h3 style="color: black; font-weight: 700;">Headph<span style="color: red !important; font-size: 30px !important;">O</span>nes</h3>
+            </div>
+            </div>
+
+            <div class="col-md-8">
+              <nav class="navbar navbar-expand-lg navmenu-2">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="productpage.html">Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeQ4YH7RnImbm2ZhufZIRFxaqwH2gogw2AA-ZspJNBjNhIxDA/viewform?usp=sf_link">Feedback</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            </div>
+
+
+          </div>
+
+          <div class="lin2 my-3"></div> 
+
+          <div class="row">
+
+            <div class="col-md-7 footer-below">
+              <p class="footer-text"><i class="fa-regular fa-copyright"></i><span> Copyright 2023. All Rights Reserved. 
+                <!-- | This template is made with</span><i class="fa-solid fa-heart"> -->
+
+                </i>
+                <!-- <span>Md Abdullah Al Shakil</span></p> -->
+            </div>
+
+            <div class="col-md-5">
+              <div class="social-icon">
+                <ul>
+                  <li class="fb"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li class="twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                  <li class="insta"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="plus"><a href=""><i class="fa-brands fa-google-plus"></i></a></li>
+                  <li class="yt"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                  <li class="ln"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!--Ending of Footer Section-->
+
+        
+    </div>
+
+    
+    
+
+    <script>
+        function addToCart() {
+          // Perform your add to cart logic here
+    
+          // Show the success popup
+          var popup = document.getElementById("successPopup");
+          popup.style.display = "block";
+    
+          // Hide the popup after 3 seconds
+          setTimeout(function() {
+            popup.style.display = "none";
+          }, 2000);
+        }
+      </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/main1.js"></script>
+    <script type="module" src="js/item1.js"></script>
+    <script type="module" src="js/item2.js"></script>
+    <script type="module" src="js/item3.js"></script>
+    <script type="module" src="js/item4.js"></script>
+    <script type="module" src="js/item5.js"></script>
+    <script type="module" src="js/item6.js"></script>
+    <script type="module" src="js/item7.js"></script>
+    <script type="module" src="js/item8.js"></script>
+    <script type="module" src="js/main_product.js"></script>
+  </body>
+</html>

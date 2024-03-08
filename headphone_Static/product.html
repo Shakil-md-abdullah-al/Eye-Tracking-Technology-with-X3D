@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Beats XYZ Pro Wireless Over-Ear</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'></script>
+    <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'/>
+    <script type="text/javascript" src="JSARToolKit.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        .popup {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 15px;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .image-container {
+          position: relative;
+          overflow: hidden;
+      }
+  
+      .zoomable-image {
+          transition: transform 0.3s ease;
+      }
+  
+      .zoomable-image:hover {
+        transform: scale(1.2) translate(10%, 10%); /* Adjust the scale factor as needed */
+      }
+    </style>
+  
+  </head>
+  <body>
+    <div class="container-fluid">
+
+        <!-- Header Section Srart  -->
+      <section class="header1-top">
+        <div class="row">
+            <div class="col-md-4 logos">
+                <h3><a href="">Headph<span style="color: red !important; font-size: 30px !important;">O</span>nes</a></h3>
+            </div>
+
+            <div class="col-md-8 ps-12">
+                <nav class="navbar navbar-expand-lg navmenu">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="productpage.html">Products</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeQ4YH7RnImbm2ZhufZIRFxaqwH2gogw2AA-ZspJNBjNhIxDA/viewform?usp=sf_link">Feedback</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="lin"></div>
+    </section>
+    <!-- End of Header  -->
+
+
+    <!-- Headphone Image Section  -->
+    <section class="headphone mt-5">
+      <div class="container">
+          <div id="successPopup" class="popup">
+              Added to Cart Successfully!
+          </div>
+          <div class="row header-content1" style="margin-left: -100px;">
+              <div class="col-md-6">
+                  <div class="image-container">
+                      <img src="image/1.jpg" alt="" class="img-fluid zoomable-image" id="zoomableImage">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <h1 style="font-size: 35px !important; color: black;">Headphone XYZ With Sonic Sound</h1> <br>
+                  <h3 style="font-size: 30px; color: green; font-weight: 600;">Price : <strike style="color: red;">£320</strike></h3>
+                  <h4 style="font-size: 28px; color: black; font-weight: 600;">Discount Price : £300 </h4> <br>
+                  <p style="color: black;">Explore the new era-eye tracking technology with santation<br> So let's start!!!</p>
+                  <p><a href="#" class="btn btn-outline-primary btn-hero" onclick="addToCart()">Add To Cart</a></p>
+              </div>
+          </div>
+      </div>
+  </section>
+   
+    <!-- End of Headhone Image  -->
+
+
+    <!-- Product Description  -->
+    <section class="product_details" style="margin-top: 80px;">
+        <div class="container">
+            <h2>Product Description</h2>
+
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Product Name</td>
+                    <td>Headphone XYZ Sonic Advance Sound</td>
+                </tr>
+                <tr>
+                    <td>Model Number</td>
+                    <td>XYZSAD015_C</td>
+                </tr>
+                <tr>
+                    <td>Usage</td>
+                    <td>Not only wireless, also can be used as a wired headphone (Provides a simple 3.5 mm wired connection to a variety of devices)</td>
+                </tr>
+                <tr>
+                    <td>Design</td>
+                    <td>Foldable Portable Design. This foldable portable design makes it easy to take along on that next vacation or business trip or to store in your desk drawer for use at work.</td>
+                </tr>
+                
+                <tr>
+                    <td>Type</td>
+                    <td>Wireless Bluetooth Headphone</td>
+                </tr>
+                <tr>
+                    <td>Accessories</td>
+                    <td>You must get Charger Cable & Audio Cable (1 by 1 Cable) with Headphone</td>
+                </tr>
+                <tr>
+                    <td>Microphone included</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Key Features</td>
+                    <td>
+                        <ul>
+                            <li>Talk time: 6 hours</li>
+                            <li>Standby time: Up to 15 hours</li>
+                            <li>Forward, Backward Selections Feature Pause Function</li>
+                            <li>Compatible with ROHS Standards</li>
+                            <li>Bluetooth High-Speed Connected</li>
+                            <li>High Fidelity Stereo Surround Sound</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Noise Cancelling</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Warentty Polict</td>
+                    <td>1 year warrenty<span style="color: red;">*</span> (Terms and conditions applicable)</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- End of Product Description  -->
+
+
+    <!-- Related Products  -->
+    <section class="course">
+      <div class="container">
+    
+        <div class="row course-heading">
+    
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image/2.jpg" class="card-img-top" alt="" class="img-fluid" style="height: 300px;">
+              <div class="card-body mt-1">
+                <a href="">Beats Studio MHo2H2oF</a>
+    
+              </div>
+              <div class="lin1 mt-2 mb-1"></div>
+            </div>
+    
+            <div class="row course-content">
+              <div class="col-md-6 c-content">
+                <p>Business</p>
+              </div>
+              <div class="col-md-6 free">
+                <p>£300</p>
+              </div>
+            </div>
+    
+          </div>
+    
+    
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image/3.jpg" class="card-img-top" alt="" class="img-fluid" style="height: 300px;">
+              <div class="card-body mt-1">
+                <a href="">Beats Gold XMS02FS</a>
+    
+              </div>
+              <div class="lin1 mt-2 mb-1"></div>
+            </div>
+    
+            <div class="row course-content">
+              <div class="col-md-6 c-content">
+                <p>Stylish</p>
+              </div>
+              <div class="col-md-6 Premium">
+                <p>£360</p>
+              </div>
+            </div>
+    
+          </div>
+    
+    
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image/4.jpg" class="card-img-top" alt="" class="img-fluid" style="height: 300px;">
+              <div class="card-body mt-1">
+                <a href="">JBL ESP2022 MH05H</a>
+    
+              </div>
+              <div class="lin1 mt-2 mb-1"></div>
+            </div>
+    
+            <div class="row course-content">
+              <div class="col-md-6 c-content">
+                <p>Drawing</p>
+              </div>
+              <div class="col-md-6 Premium">
+                <p>£280</p>
+              </div>
+            </div>
+    
+          </div>
+    
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image/5.jpg" class="card-img-top" alt="" class="img-fluid" style="height: 300px;">
+              <div class="card-body mt-1">
+                <a href="">Sony Fee Sonic Bee0252C</a>
+    
+              </div>
+              <div class="lin1 mt-2 mb-1"></div>
+            </div>
+    
+            <div class="row course-content">
+              <div class="col-md-6 c-content">
+                <p>Premium</p>
+              </div>
+              <div class="col-md-6 free">
+                <p>£400</p>
+              </div>
+            </div>
+    
+          </div>
+    
+    
+    
+        </div>
+    
+        <div class="row course-heading">
+    
+          <div class="col-md-3">
+            <div class="card slt">
+              <img src="image/6.jpg" class="card-img-top" alt="" class="img-fluid" style="height: 300px;">
+              <!-- <div class="layer"></div>
+              <div class="layer-content">
+                <i class="fas fa-link"></i>
+              </div> -->
+              <div class="card-body mt-1">
+                <a href="">Beast Headphone KIDS0200F</a>
+    
+              </div>
+              <div class="lin1 mt-2 mb-1"></div>
+            </div>
+    
+            <div class="row course-content">
+              <div class="col-md-6 c-content">
+                <p>Premium</p>
+              </div>
+              <div class="col-md-6 free">
+                <p>£400</p>
+              </div>
+            </div>
+    
+          </div>
+    
+    
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image/7.jpg" class="card-img-top" alt="" class="img-fluid" style="height: 300px;">
+              <div class="card-body mt-1">
+                <a href="">Sony MDR 565GF</a>
+    
+              </div>
+              <div class="lin1 mt-2 mb-1"></div>
+            </div>
+    
+            <div class="row course-content">
+              <div class="col-md-6 c-content">
+                <p>Premium</p>
+              </div>
+              <div class="col-md-6 Premium">
+                <p>£350</p>
+              </div>
+            </div>
+    
+          </div>
+    
+    
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image/8.jpg" class="card-img-top" alt="" class="img-fluid" style="height: 300px;">
+              <div class="card-body mt-1">
+                <a href="">JBL Unlimitate 2S5F</a>
+    
+              </div>
+              <div class="lin1 mt-2 mb-1"></div>
+            </div>
+    
+            <div class="row course-content">
+              <div class="col-md-6 c-content">
+                <p>Passoinate</p>
+              </div>
+              <div class="col-md-6 free">
+                <p>£250</p>
+              </div>
+            </div>
+    
+          </div>
+    
+          <div class="col-md-3">
+            <div class="card">
+              <img src="image/10.jpg" class="card-img-top" alt="" class="img-fluid" style="height: 300px;">
+              <div class="card-body mt-1">
+                <a href="">Sony Advance %BCF2A</a>
+    
+              </div>
+              <div class="lin1 mt-2 mb-1"></div>
+            </div>
+    
+            <div class="row course-content">
+              <div class="col-md-6 c-content">
+                <p>Sonic</p>
+              </div>
+              <div class="col-md-6 free">
+                <p>£380</p>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Related Product  -->
+
+    <!--Starting Contact Us Section-->
+    <section class="contact my-5 p-0">
+      <div class="row contact-content">
+        <div class="col-md-8 offset-md-2 text-center text-white">
+          <h2>Contact Us</h2>
+          <p>Contact us foe any query and advice to get improvement of us.</p>
+          <p><a href="" class="btn btn-outline-primary btn-hero">Contact Us</a></p>
+        </div>
+      </div>
+    </section>
+      <!--Ending of Contact Us Section-->
+
+
+      <!--Footer Section Start-->
+      <section class="footer p-0">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="col-md-4">
+                <h3 style="color: black; font-weight: 700;">Headph<span style="color: red !important; font-size: 30px !important;">O</span>nes</h3>
+            </div>
+            </div>
+
+            <div class="col-md-8">
+              <nav class="navbar navbar-expand-lg navmenu-2">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="productpage.html">Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeQ4YH7RnImbm2ZhufZIRFxaqwH2gogw2AA-ZspJNBjNhIxDA/viewform?usp=sf_link">Feedback</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            </div>
+
+
+          </div>
+
+          <div class="lin2 my-3"></div> 
+
+          <div class="row">
+
+            <div class="col-md-7 footer-below">
+              <p class="footer-text"><i class="fa-regular fa-copyright"></i><span> Copyright 2023. All Rights Reserved. 
+                <!-- | This template is made with</span><i class="fa-solid fa-heart"> -->
+
+                </i>
+                <!-- <span>Md Abdullah Al Shakil</span></p> -->
+            </div>
+
+            <div class="col-md-5">
+              <div class="social-icon">
+                <ul>
+                  <li class="fb"><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li class="twitter"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                  <li class="insta"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="plus"><a href=""><i class="fa-brands fa-google-plus"></i></a></li>
+                  <li class="yt"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                  <li class="ln"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!--Ending of Footer Section-->
+
+    </div>
+
+    
+
+    <script>
+      function addToCart() {
+        // Perform your add to cart logic here
+  
+        // Show the success popup
+        var popup = document.getElementById("successPopup");
+        popup.style.display = "block";
+  
+        // Hide the popup after 3 seconds
+        setTimeout(function() {
+          popup.style.display = "none";
+        }, 2000);
+      }
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/main1.js"></script>
+    <script type="module" src="js/item1.js"></script>
+    <script type="module" src="js/item2.js"></script>
+    <script type="module" src="js/item3.js"></script>
+    <script type="module" src="js/item4.js"></script>
+    <script type="module" src="js/item5.js"></script>
+    <script type="module" src="js/item6.js"></script>
+    <script type="module" src="js/item7.js"></script>
+    <script type="module" src="js/item8.js"></script>
+    <script type="module" src="js/main_product.js"></script>
+  </body>
+</html>
