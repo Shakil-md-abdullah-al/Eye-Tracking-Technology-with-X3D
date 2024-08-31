@@ -28,6 +28,9 @@ and so I have attached it in the following link: </br>
 <h2>2. Static Interface</h2>
 <h2>Here At first I am providing some screenshots of the static model</h2>
 ![image](https://github.com/user-attachments/assets/366dec88-4571-4279-8aa2-98542a754f37)
+![image](https://github.com/user-attachments/assets/b99345c8-0190-483f-8766-97a96f4d15ec)
+
+
 
 
 
