@@ -10,3 +10,5 @@
 In this scop I have build two website. AT first in the static part I have only make a prototype design of my main website. It is a conceptual website that works with 3d model. Due to file size I can't upload the x3d file on [![GitHub Follow](https://img.shields.io/badge/GitHub-Follow%20Me-black?logo=github&logoColor=white)](https://github.com/Shakil-md-abdullah-al) 
 and so I have attached it in the following link: </br>
 ### 📁 [Click to Show File](https://disk.yandex.com/d/YE8lKqxj0XcyjQ) | [Click to Download](https://disk.yandex.com/d/YE8lKqxj0XcyjQ?download=1)
+
+### 📦 [Download ZIP of Repository](https://github.com/Shakil-md-abdullah-al/Eye-Tracking-Technology-with-x3d/archive/refs/heads/main.zip)
