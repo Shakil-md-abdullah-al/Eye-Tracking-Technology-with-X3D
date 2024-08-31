@@ -42,7 +42,7 @@ and so I have attached it in the following link: </br>
 3. TreeJS commands
 </pre>
 
-<h2>5. Setup and Configuration</h2>
+<h2>4. Setup and Configuration</h2>
 
 
 <h2>5. Additional</h2>
