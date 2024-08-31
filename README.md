@@ -33,9 +33,11 @@ and so I have attached it in the following link: </br>
 
 <h2>3. Requirements</h2>
 </hr>
+<pre>
 1. NodeJS
 2. Any Code editor (VS Code)
 3. TreeJS commands
+</pre>
 
 <h2>5. Setup and Configuration</h2>
 
