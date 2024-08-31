@@ -27,11 +27,8 @@ and so I have attached it in the following link: </br>
 </br> 
 <h2>2. Static Interface</h2>
 <h2>Here At first I am providing some screenshots of the static model</h2>
-![image](https://github.com/user-attachments/assets/4a66b309-6c89-4878-8d42-6787f1128753)
-![image](https://github.com/user-attachments/assets/2f53da36-aed7-485a-b0cf-e4320b26e98e)
-![image](https://github.com/user-attachments/assets/a851f76a-5d68-4151-a95c-bba1ea7c084e)
-![image](https://github.com/user-attachments/assets/4c615e9c-6002-481b-a039-543641c61a41)
-![image](https://github.com/user-attachments/assets/54227347-c2ea-4a7a-aef3-b00077f1a077)
+![image](https://github.com/user-attachments/assets/52742c3b-9965-459b-b2d5-883921031198)
+
 
 <h2>3. Requirements</h2>
 </hr>
