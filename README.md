@@ -47,7 +47,7 @@ and so I have attached it in the following link: </br>
 
 <h2>5. Additional</h2>
 </hr>
-You can use  3D models from <a herf="https://sketchfab.com/3d-models/spider-man-2-style-headphones-ca22cba6330e49e7b3a00e543d542131#download">this link </a> or can make your model. I have developd my model with Cinema$D and from the website.
+You can use  3D models from <a herf="https://sketchfab.com/3d-models/spider-man-2-style-headphones-ca22cba6330e49e7b3a00e543d542131#download">this link </a> or can make your model. I have developed my model with Cinema$D and from the website.
 
 
 
